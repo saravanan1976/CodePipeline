@@ -6,16 +6,18 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="08-aws-hello-world-rest-api-pipeline" />
+        <module name="hello-world-rest-api-pipeline" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="08-aws-hello-world-rest-api-pipeline" target="1.8" />
+      <module name="hello-world-rest-api-pipeline" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="08-aws-hello-world-rest-api-pipeline" options="-parameters" />
+      <module name="hello-world-rest-api-pipeline" options="-parameters" />
     </option>
   </component>
 </project>
